@@ -1,0 +1,11 @@
+Started by user [8mha:////4BN7gkNf27FB8M9zvflLgNrdWNG2n+TtcUeWx7L8F53FAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNSy/IJiAEFU5gjBAAAA[0mDevOps
+Building in workspace /var/lib/jenkins/workspace/git-jenkins-backup
+[git-jenkins-backup] $ /bin/sh -xe /tmp/jenkins2871730457509296623.sh
++ sudo -
+/tmp/jenkins2871730457509296623.sh: line 2: sudo: command not found
+Build step 'Execute shell' marked build as failure
+Started calculate disk usage of build
+Finished Calculation of disk usage of build in 0 seconds
+Started calculate disk usage of workspace
+Finished Calculation of disk usage of workspace in 0 seconds
+Finished: FAILURE

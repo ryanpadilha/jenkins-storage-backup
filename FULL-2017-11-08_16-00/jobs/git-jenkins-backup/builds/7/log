@@ -1,0 +1,24 @@
+Started by user [8mha:////4BN7gkNf27FB8M9zvflLgNrdWNG2n+TtcUeWx7L8F53FAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNSy/IJiAEFU5gjBAAAA[0mDevOps
+Building in workspace /var/lib/jenkins/workspace/git-jenkins-backup
+[git-jenkins-backup] $ /bin/sh -xe /tmp/jenkins3631999286132277951.sh
++ cd /opt/backup/jenkins
++ git add BACKUPSET_2017-11-08_12-35_.zip BACKUPSET_2017-11-08_12-40_.zip BACKUPSET_2017-11-08_12-45_.zip BACKUPSET_2017-11-08_12-50_.zip BACKUPSET_2017-11-08_13-00_.zip BACKUPSET_2017-11-08_13-04_.zip BACKUPSET_2017-11-08_14-00_.zip BACKUPSET_2017-11-08_14-20_.zip BACKUPSET_2017-11-08_14-22_.zip BACKUPSET_2017-11-08_14-24_.zip
++ git commit -m 'zip files'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'jenkins@ryan-maquina-2.(none)')
+Build step 'Execute shell' marked build as failure
+Started calculate disk usage of build
+Finished Calculation of disk usage of build in 0 seconds
+Started calculate disk usage of workspace
+Finished Calculation of disk usage of workspace in 0 seconds
+Finished: FAILURE
