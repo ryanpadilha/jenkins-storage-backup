@@ -1,0 +1,22 @@
+commit 0ebd31227ed47b02329ebd4e0d57989bc9a615be
+tree fef2d1727ed47edf089f3bc31b13a46aee1d1ef9
+parent ccd602a4d14fe1986c78169ece112e6b21643621
+author Ryan Padilha <ryan.padilha@gmail.com> 2017-11-06 14:27:35 -0200
+committer Ryan Padilha <ryan.padilha@gmail.com> 2017-11-06 14:27:35 -0200
+
+    add distribution-pom
+
+
+
+:100644 100644 a54dfb3f946035e1f85af59d86152703ce591af2 35c0e2d8c3a107a3e37fe2119365d026126da009 M	pom.xml
+commit ccd602a4d14fe1986c78169ece112e6b21643621
+tree 43ea28d1fbd6ac7de793c2b8ef5bfa15485bc7ea
+parent fb541b33d647fe0b7ab81511e50737ea43ff2364
+author Ryan Padilha <ryan.padilha@gmail.com> 2017-11-06 14:07:00 -0200
+committer Ryan Padilha <ryan.padilha@gmail.com> 2017-11-06 14:07:00 -0200
+
+    add distribution-pom
+
+
+
+:100644 100644 fbf5231f7de2a5261c7441263a71903a3eaf446e a54dfb3f946035e1f85af59d86152703ce591af2 M	pom.xml
