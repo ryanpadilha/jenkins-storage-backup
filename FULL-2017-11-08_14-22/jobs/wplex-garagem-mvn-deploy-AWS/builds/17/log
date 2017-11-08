@@ -1,0 +1,105 @@
+Started by upstream project "[8mha:////4IvPJ/zEeVZfnN2FghbmMUUKWEHw2SJxv+IKHrrmqs85AAAArx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzZEgZl/az8JP3ygpzUCt30xKLE9NRc3dyyPN3EopLMtMTkkvyiSn0AnQB1k9gAAAA=[0mwplex-garagem-mvn-artifactory" build number [8mha:////4IYXnv7tnzNWoaWiAxLU7K6rgNdWf+e2eMyd6piPrugyAAAAsR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZV/az8JP3ygpzUCt30xKLE9NRc3dyyPN3EopLMtMTkkvyiSn1jSwCbxfQ32gAAAA==[0m39
+originally caused by:
+ Started by user [8mha:////4BN7gkNf27FB8M9zvflLgNrdWNG2n+TtcUeWx7L8F53FAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNSy/IJiAEFU5gjBAAAA[0mDevOps
+Building in workspace /var/lib/jenkins/workspace/wplex-garagem-mvn-deploy-AWS
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ryanpadilha/wplex-garagem-spring-boot.git # timeout=10
+Fetching upstream changes from https://github.com/ryanpadilha/wplex-garagem-spring-boot.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/ryanpadilha/wplex-garagem-spring-boot.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/pg-database^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/pg-database^{commit} # timeout=10
+Checking out Revision 0ebd31227ed47b02329ebd4e0d57989bc9a615be (refs/remotes/origin/pg-database)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0ebd31227ed47b02329ebd4e0d57989bc9a615be
+Commit message: "add distribution-pom"
+ > git rev-list 0ebd31227ed47b02329ebd4e0d57989bc9a615be # timeout=10
+[wplex-garagem-mvn-deploy-AWS] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven-3.5.2/bin/mvn clean package -DskipTests
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building wplex-garagem 0.0.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4E9MrDvu4tirA4U4YBrBkUShw2x3JLOBIp78ACd9/AqTAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ wplex-garagem ---
+[INFO] Deleting /var/lib/jenkins/workspace/wplex-garagem-mvn-deploy-AWS/target
+[INFO] 
+[8mha:////4E9MrDvu4tirA4U4YBrBkUShw2x3JLOBIp78ACd9/AqTAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ wplex-garagem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 28 resources
+[INFO] 
+[8mha:////4E9MrDvu4tirA4U4YBrBkUShw2x3JLOBIp78ACd9/AqTAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ wplex-garagem ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 25 source files to /var/lib/jenkins/workspace/wplex-garagem-mvn-deploy-AWS/target/classes
+[INFO] 
+[8mha:////4E9MrDvu4tirA4U4YBrBkUShw2x3JLOBIp78ACd9/AqTAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- swagger-maven-plugin:3.1.4:generate (default) @ wplex-garagem ---
+[INFO] Reflections took 126 ms to scan 1 urls, producing 20 keys and 39 values 
+[INFO] Reflections took 6 ms to scan 1 urls, producing 20 keys and 39 values 
+[INFO] picking up response class from method public org.springframework.http.ResponseEntity br.com.wplex.resource.impl.CompanyResourceImpl.delete(java.lang.Long)
+[INFO] picking up response class from method public org.springframework.http.ResponseEntity br.com.wplex.resource.impl.GarageResourceImpl.get(java.lang.Long)
+[INFO] picking up response class from method public org.springframework.http.ResponseEntity br.com.wplex.resource.impl.GarageResourceImpl.list()
+[INFO] picking up response class from method public org.springframework.http.ResponseEntity br.com.wplex.resource.impl.GarageResourceImpl.create(br.com.wplex.model.entity.Garage)
+[INFO] picking up response class from method public org.springframework.http.ResponseEntity br.com.wplex.resource.impl.CompanyResourceImpl.list()
+[INFO] picking up response class from method public org.springframework.http.ResponseEntity br.com.wplex.resource.impl.GarageResourceImpl.getPage(int,int,java.lang.String,java.lang.String)
+[INFO] picking up response class from method public org.springframework.http.ResponseEntity br.com.wplex.resource.impl.GarageResourceImpl.delete(java.lang.Long)
+[INFO] picking up response class from method public org.springframework.http.ResponseEntity br.com.wplex.resource.impl.CompanyResourceImpl.get(java.lang.Long)
+[INFO] picking up response class from method public org.springframework.http.ResponseEntity br.com.wplex.resource.impl.GarageResourceImpl.update(java.lang.Long,br.com.wplex.model.entity.Garage)
+[INFO] picking up response class from method public org.springframework.http.ResponseEntity br.com.wplex.resource.impl.CompanyResourceImpl.update(java.lang.Long,br.com.wplex.model.entity.Company)
+[INFO] picking up response class from method public org.springframework.http.ResponseEntity br.com.wplex.resource.impl.CompanyResourceImpl.create(br.com.wplex.model.entity.Company)
+[INFO] picking up response class from method public org.springframework.http.ResponseEntity br.com.wplex.resource.impl.GarageResourceImpl.findByCompanyId(java.lang.Long)
+[INFO] Writing doc to /var/lib/jenkins/workspace/wplex-garagem-mvn-deploy-AWS/src/main/resources/public/api-portal/swagger/1.0/spec/document.html...
+[INFO] Done!
+[INFO] Reflections took 5 ms to scan 1 urls, producing 20 keys and 39 values 
+[INFO] 
+[8mha:////4E9MrDvu4tirA4U4YBrBkUShw2x3JLOBIp78ACd9/AqTAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ wplex-garagem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/wplex-garagem-mvn-deploy-AWS/src/test/resources
+[INFO] 
+[8mha:////4E9MrDvu4tirA4U4YBrBkUShw2x3JLOBIp78ACd9/AqTAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ wplex-garagem ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/wplex-garagem-mvn-deploy-AWS/target/test-classes
+[INFO] 
+[8mha:////4E9MrDvu4tirA4U4YBrBkUShw2x3JLOBIp78ACd9/AqTAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ wplex-garagem ---
+[INFO] Tests are skipped.
+[INFO] 
+[8mha:////4E9MrDvu4tirA4U4YBrBkUShw2x3JLOBIp78ACd9/AqTAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ wplex-garagem ---
+[INFO] Building jar: /var/lib/jenkins/workspace/wplex-garagem-mvn-deploy-AWS/target/wplex-garagem.jar
+[INFO] 
+[8mha:////4E9MrDvu4tirA4U4YBrBkUShw2x3JLOBIp78ACd9/AqTAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:1.5.1.RELEASE:repackage (default) @ wplex-garagem ---
+[INFO] 
+[8mha:////4E9MrDvu4tirA4U4YBrBkUShw2x3JLOBIp78ACd9/AqTAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-assembly-plugin:2.6:single (default) @ wplex-garagem ---
+[INFO] Building tar: /var/lib/jenkins/workspace/wplex-garagem-mvn-deploy-AWS/target/wplex-garagem-0.0.2-dev.tar.gz
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.871 s
+[INFO] Finished at: 2017-11-07T13:51:31Z
+[INFO] Final Memory: 46M/590M
+[INFO] ------------------------------------------------------------------------
+SSH: Connecting from host [ryan-maquina-2]
+SSH: Connecting with configuration [AWS-SSH] ...
+SSH: EXEC: STDOUT/STDERR from command [sudo sh /var/wplex/apps/wplex-garagem/bin/stop.sh
+sudo rm -rf /var/wplex/apps/wplex-garagem
+sudo tar -zxvf /var/wplex/apps/artifact/wplex-garagem-*-dev.tar.gz -C /var/wplex/apps/
+sudo rm -rf /var/wplex/apps/wplex-garagem/*.properties
+sudo cp /var/wplex/apps/application-prd-garagem.properties /var/wplex/apps/wplex-garagem/config
+sudo nohup nice /var/wplex/apps/wplex-garagem/bin/start.sh prd-garagem > /dev/null 2>&1 &] ...
+stop wplex-garagem application...
+wplex-garagem/bin/stop.sh
+wplex-garagem/bin/jenkins-ssh.sh
+wplex-garagem/bin/start.sh
+wplex-garagem/config/application-dev.properties
+wplex-garagem/config/logback-spring.xml
+wplex-garagem/config/heroku.properties
+wplex-garagem/config/application-stg.properties
+wplex-garagem/lib/wplex-garagem.jar
+wplex-garagem/logs/
+SSH: EXEC: completed after 801 ms
+SSH: Disconnecting configuration [AWS-SSH] ...
+SSH: Transferred 1 file(s)
+Started calculate disk usage of build
+Finished Calculation of disk usage of build in 0 seconds
+Started calculate disk usage of workspace
+Finished Calculation of disk usage of workspace in 0 seconds
+Finished: SUCCESS
