@@ -1,0 +1,42 @@
+Started by user [8mha:////4BN7gkNf27FB8M9zvflLgNrdWNG2n+TtcUeWx7L8F53FAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNSy/IJiAEFU5gjBAAAA[0mDevOps
+Building in workspace /var/lib/jenkins/workspace/wplex-garagem mvn
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ryanpadilha/wplex-garagem-spring-boot.git # timeout=10
+Fetching upstream changes from https://github.com/ryanpadilha/wplex-garagem-spring-boot.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/ryanpadilha/wplex-garagem-spring-boot.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/pg-database^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/pg-database^{commit} # timeout=10
+Checking out Revision fb541b33d647fe0b7ab81511e50737ea43ff2364 (refs/remotes/origin/pg-database)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fb541b33d647fe0b7ab81511e50737ea43ff2364
+Commit message: "start memory reduced"
+ > git rev-list fb541b33d647fe0b7ab81511e50737ea43ff2364 # timeout=10
+[wplex-garagem mvn] $ mvn clean package -DskipTests
+FATAL: command execution failed
+[8mha:////4KmTu7C3lhGaFZ0JqUpqug7ATSHUAoTn8NszKst88BlRAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mjava.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+Caused: java.io.IOException: Cannot run program "mvn" (in directory "/var/lib/jenkins/workspace/wplex-garagem mvn"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at hudson.Proc$LocalProc.<init>(Proc.java:249)
+	at hudson.Proc$LocalProc.<init>(Proc.java:218)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:930)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:450)
+	at hudson.Launcher$ProcStarter.join(Launcher.java:461)
+	at hudson.tasks.Maven.perform(Maven.java:367)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:736)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:496)
+	at hudson.model.Run.execute(Run.java:1737)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:421)
+Build step 'Invoke top-level Maven targets' marked build as failure
+Sending e-mails to: ryan.padilha@wplex.com.br
+Finished: FAILURE
